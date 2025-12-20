@@ -1,0 +1,23 @@
+﻿# Python / venv
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Data & outputs (besar, jangan ikut repo)
+data/raw/
+data/processed/
+models/
+figures/
+
+# Secrets
+.env
+.env.*
+
+# Windows junk
+Thumbs.db
