@@ -9,11 +9,22 @@ __pycache__/
 # VS Code
 .vscode/
 
-# Data & outputs (besar, jangan ikut repo)
+# Data besar dan model hasil training
 data/raw/
 data/processed/
-models/
-figures/
+models/*
+!models/attention_lstm/
+models/attention_lstm/*
+!models/attention_lstm/metrics_*.csv
+
+# Hanya grafik yang ditampilkan di README
+figures/*
+!figures/BTC\ Actual\ vs\ pred.png
+!figures/ETH\ Actual\ vs\ pred.png
+!figures/BNB\ Actual\ vs\ pred.png
+!figures/BTC\ Train\ and\ val\ loss.png
+!figures/ETH\ Train\ and\ val\ loss.png
+!figures/BNB\ Train\ and\ val\ loss.png
 
 # Secrets
 .env
